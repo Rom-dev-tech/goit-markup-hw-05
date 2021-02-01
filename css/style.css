@@ -107,6 +107,9 @@ body {
   height: 44px;
   border-radius: 50%;
   fill: var(--icon-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -153,6 +156,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link.contact {
   color: var(--primary-text-color);
@@ -352,6 +357,9 @@ body {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   fill: var(--icon-color);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .company-icon {
   height: 100%;
@@ -373,6 +381,8 @@ body {
 .footer-address {
   font-style: normal;
   color: var(--footer-text-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-address {
   margin-bottom: 9px;
@@ -438,6 +448,10 @@ body {
   text-align: center;
 
   cursor: pointer;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -482,6 +496,9 @@ body {
 .cards-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.cards-link {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* =======END PORTFOLIO======= */
