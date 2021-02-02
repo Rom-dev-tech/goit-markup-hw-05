@@ -118,6 +118,11 @@ body {
 }
 /* =======END COMPONENTS======= */
 
+.modal-icon {
+  fill: var(--icon-color);
+}
+/* =======END BACKDROP======= */
+
 /* =======LOGO======= */
 .logo {
   font-family: Raleway, sans-serif;
